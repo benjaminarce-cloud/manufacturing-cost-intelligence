@@ -1,0 +1,12 @@
+CostDriver,Region,Rate,Currency,Per_Unit,Feasibility
+Plastic Resin,Default,1.80,USD,kg,1.0
+Steel,Default,2.50,USD,kg,0.8
+Cardboard,Default,0.90,USD,kg,1.1
+Machine Time,Default,0.85,USD,min,1.5
+Labor,Texas,0.35,USD,min,1.2
+Labor,Monterrey,2.10,MXN,min,0.7
+Electricity,Default,0.18,USD,kWh,0.9
+Screen,Default,25.00,USD,unit,0.5
+Semiconductors,Default,15.50,USD,unit,0.2
+Logistics,Default,1.20,USD,unit,0.6
+Software License Fee,Default,5.00,USD,unit,0.4

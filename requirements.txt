@@ -1,0 +1,37 @@
+streamlit==1.32.0
+pandas==2.2.1
+openai==1.13.3
+fpdf2==2.7.8
+plotly==5.19.0
+kaleido==0.2.1
+pytest==8.1.1
+```Run `pip install -r requirements.txt` to ensure all versions are correct.
+
+#### **`tests/conftest.py` and `tests/test_cost_simulator.py` (New Files)**
+This is a sample of the unit tests you requested.
+
+**`tests/conftest.py`:**
+```python
+import pytest
+import pandas as pd
+
+@pytest.fixture(scope="module")
+def sample_data():
+    """Provides sample dataframes for testing."""
+    bom_data = {
+        'ProductID': ['P1', 'P1'],
+        'Component': ['Labor', 'Steel'],
+        'Quantity': [10, 2],
+        'Unit': ['min', 'kg'],
+        'Region': ['Texas', 'Texas']
+    }
+    costs_data = {
+        'CostDriver': ['Labor', 'Steel'],
+        'Region': ['Texas', 'Default'],
+        'Rate': [0.5, 2.0],
+        'Unit': ['min', 'kg']
+    }
+    bom_df = pd.DataFrame(bom_data)
+    costs_df = pd.DataFrame(costs_data)
+    cost_lookup = {(r.CostDriver, r.Region): r.Rate for _, r in costs_df.iterrows()}
+    return bom_df, costs_df, cost_lookup

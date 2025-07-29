@@ -1,0 +1,42 @@
+ProductID,ProductName,Component,Quantity,Unit,CurrentSellingPrice,AnnualVolume,Region
+PROD-A,Smart Speaker Mini,Plastic Resin,0.5,kg,49.99,150000,Texas
+PROD-A,Smart Speaker Mini,Semiconductors,1,unit,49.99,150000,Texas
+PROD-A,Smart Speaker Mini,Labor,12,min,49.99,150000,Texas
+PROD-A,Smart Speaker Mini,Logistics,1,unit,49.99,150000,Texas
+PROD-A,Smart Speaker Mini,Software License Fee,1,unit,49.99,150000,Texas
+PROD-B,Smart Speaker Pro,Steel,0.4,kg,149.99,40000,Texas
+PROD-B,Smart Speaker Pro,Plastic Resin,0.3,kg,149.99,40000,Texas
+PROD-B,Smart Speaker Pro,Semiconductors,3,unit,149.99,40000,Texas
+PROD-B,Smart Speaker Pro,Labor,30,min,149.99,40000,Texas
+PROD-B,Smart Speaker Pro,Logistics,2,unit,149.99,40000,Texas
+PROD-B,Smart Speaker Pro,Software License Fee,1,unit,149.99,40000,Texas
+PROD-C,Smart Display,Plastic Resin,0.8,kg,229.99,30000,Texas
+PROD-C,Smart Display,Screen,1,unit,229.99,30000,Texas
+PROD-C,Smart Display,Semiconductors,4,unit,229.99,30000,Texas
+PROD-C,Smart Display,Labor,50,min,229.99,30000,Texas
+PROD-C,Smart Display,Logistics,2,unit,229.99,30000,Texas
+PROD-C,Smart Display,Software License Fee,1,unit,229.99,30000,Texas
+PROD-D,WiFi Power Outlet,Plastic Resin,0.2,kg,24.99,200000
+PROD-D,WiFi Power Outlet,Semiconductors,1,unit,24.99,200000
+PROD-D,WiFi Power Outlet,Labor,6,min,24.99,200000
+PROD-D,WiFi Power Outlet,Logistics,1,unit,24.99,200000
+PROD-E,LED Smart Bulb,Plastic Resin,0.1,kg,14.99,350000
+PROD-E,LED Smart Bulb,Semiconductors,1,unit,14.99,350000
+PROD-E,LED Smart Bulb,Labor,3,min,14.99,350000
+PROD-E,LED Smart Bulb,Logistics,1,unit,14.99,350000
+PROD-F,Security Camera,Plastic Resin,0.6,kg,99.99,60000
+PROD-F,Security Camera,Steel,0.1,kg,99.99,60000
+PROD-F,Security Camera,Semiconductors,3,unit,99.99,60000
+PROD-F,Security Camera,Labor,32,min,99.99,60000
+PROD-F,Security Camera,Logistics,2,unit,99.99,60000
+PROD-F,Security Camera,Software License Fee,1,unit,99.99,60000
+PROD-G,Smart Thermostat,Plastic Resin,0.4,kg,199.99,25000
+PROD-G,Smart Thermostat,Screen,1,unit,199.99,25000
+PROD-G,Smart Thermostat,Semiconductors,3,unit,199.99,25000
+PROD-G,Smart Thermostat,Labor,40,min,199.99,25000
+PROD-G,Smart Thermostat,Logistics,2,unit,199.99,25000
+PROD-G,Smart Thermostat,Software License Fee,1,unit,199.99,25000
+PROD-H,Wireless Charging Pad,Plastic Resin,0.3,kg,39.99,100000,Texas
+PROD-H,Wireless Charging Pad,Semiconductors,1,unit,39.99,100000,Texas
+PROD-H,Wireless Charging Pad,Labor,8,min,39.99,100000,Texas
+PROD-H,Wireless Charging Pad,Logistics,1,unit,39.99,100000,Texas
